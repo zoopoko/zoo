@@ -1,0 +1,221 @@
+/*
+Theme Name: Zoo
+Author: masa_kun
+Description: フリーランスデザイナーmasa_kunのWordPressテーマ
+Version: 1.0
+*/
+
+.html {
+  margin-top: 0px !important;
+}
+
+header{
+  z-index: 0;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+}
+
+.spacetop {
+  margin-top: 95px;
+}
+
+.body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh; }
+
+.main {
+  flex: 1; }
+
+#body-inside {
+  overflow-x: hidden; }
+
+.logo1 {
+  margin-bottom: 1px; }
+
+.t_hdr {
+  border-bottom: solid 4px #dbdad8;
+  height: 60px;
+  margin: 0 -200%;
+  padding: 0 200%;
+}
+
+.bxcnt {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  justify-content: space-around; }
+
+.bxcnt2 {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  justify-content: space-around; }
+
+ul {
+  background-image: none;
+  padding-left: 0;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  list-style-type: none; }
+
+li.font a {
+  float: left;
+  margin: 0;
+  display: inline-block;
+  font-size: 15px;
+  list-style-type: none;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 3px; }
+
+li.logo {
+  float: left;
+  margin: 0;
+  display: inline-block;
+  font-size: 15px;
+  list-style-type: none;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 3px; }
+
+.cr {
+  display: flex;
+  justify-content: space-between; }
+
+.snsmenu {
+  margin-top: 5px; }
+
+.hbmenu {
+  margin-top: 5px; }
+
+@media (min-width: 768.1px) {
+  .sp_hdr {
+    display: none; }
+
+  #wrapper {
+    display: none; } }
+@media (max-width: 768px) {
+  .t_hdr {
+    display: none; } }
+.sp_hdr {
+  margin: 0 -200%;
+  padding: 0 200%;
+  border-bottom: solid 4px #dbdad8; }
+
+.underline {
+  width: 1024px;
+  border-bottom: solid 4px #dbdad8; }
+
+.containerx {
+  display: flex;
+  justify-content: space-between; }
+
+.accbox {
+  margin: 0;
+  padding: 0;
+  max-width: 60px;
+  background-color: transparent;
+  margin-right: 18px; }
+
+.accbox label {
+  display: block;
+  margin: 1.5px 0;
+  padding: 11px 12px;
+  background-color: transparent;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.5s; }
+
+.accbox label:hover {
+  background-color: transparent; }
+
+.accbox input {
+  display: none; }
+
+.accbox .accshow {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s; }
+
+.cssacc:checked + .accshow {
+  height: auto;
+  padding: 5px;
+  background-color: transparent;
+  opacity: 1;
+  text-align: right; }
+
+.accshow {
+  width: 1024px;
+  display: flex; }
+
+.boxsp {
+  justify-content: flex-end;
+  list-style: none; }
+
+li.fontsp a {
+  font-size: 9px; }
+
+.logoxx {
+  margin-top: 7px;
+  text-align: center; }
+
+.box1 {
+  padding: 0.5em 1em;
+  height: 240px;
+  margin: 10px;
+  font-weight: bold;
+  border: solid 6px #dbdad8;
+  }
+
+.box2 {
+  padding: 0.5em 1em;
+  margin: 10px;
+  font-weight: bold;
+  border: solid 6px #dbdad8;
+}
+
+.boxarticle {
+  border: solid 6px #dbdad8;
+}
+
+.flx {
+ width: 100%; 
+}
+.t_ftr {
+  margin: 0 -200%;
+  padding: 0 200%; }
+
+.ftr_inside {
+  height: 240px;
+  background-color: #4a4a4a;
+  
+}
+  
+  
+#copyright {
+  color: #ffffff;
+  float: right;
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */
