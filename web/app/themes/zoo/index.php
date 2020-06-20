@@ -7,7 +7,7 @@
 <div class="container flx">
   <div class="row">
 
-    <div class="row col-lg-9">
+    <div class="row col-lg-9" style="width: auto;">
     <?php if ( have_posts() ) : //条件分岐：投稿があるなら ?>
     <?php while ( have_posts() ) : the_post();//繰り返し処理開始 ?>
     
