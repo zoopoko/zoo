@@ -15,3 +15,10 @@ register_sidebar(array(
 
 ));
 
+add_filter( 'the_excerpt_rss', 'mytheme_the_excerpt_rss' );
+
+function mytheme_the_excerpt_rss( $out ) {
+	if ( mb_strlen( $out ) > 50 )
+		$out = mb_substr( $out, 0, 50 ).'[...]';
+	return $out;
+}
