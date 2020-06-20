@@ -16,7 +16,7 @@
               <div class="category">カテゴリー：<?php the_category(','); //投稿の属するカテゴリー名を全て表示 パラメータで区切り文字を指定 ?></div>
             </div>
             <div class="blog-body">
-              <?php the_content(); //投稿（固定ページ）の本文を表示 ?>
+              <?php the_excerpt(); //投稿（固定ページ）の本文を表示 ?>
             </div>
           </div>
       </section>
