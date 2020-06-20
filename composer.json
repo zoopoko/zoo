@@ -78,5 +78,10 @@
 	  "vendor/bin/phpcs"
 	]
   }
-}
 
+"web/wp/wp-content/themes/{$zoo}/": [
+	"type:wordpress-theme",
+	"wpackagist-theme/zoo"
+],
+  
+}
