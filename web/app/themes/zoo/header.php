@@ -88,7 +88,7 @@
             </div>  
             <div class="accbox">
               <!--ラベル2-->
-                <label for="label2"><a href="<a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_logo.png" alt="logo" width="70" height="70"></a></label>
+                <label for="label2"><a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_logo.png" alt="logo" width="70" height="70"></a></label>
                 <input type="checkbox" id="label2" class="cssacc" />
                 <div class="accshow">
                 </div>
