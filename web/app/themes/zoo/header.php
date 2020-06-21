@@ -35,7 +35,7 @@
                     <div class="row align-items-end">
                         <div class="col-lg-2">
                             <div class="logo1">
-                                <a href="<?php echo home_url(); //トップページのURLを出力 ?>">
+                                <a href="<?php echo home_url( '/' ); //トップページのURLを出力 ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/zoo_logo.png" alt="logo" width="60" height="40">
                                 </a>
                             </div>
