@@ -50,7 +50,12 @@
                         </div>
                         <div class="col-lg-4">
                             <ul class="bxcnt2">
+                                <a href="https://twitter.com/zoopokopoko">
                                 <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_twitter.png" alt="logo" width="25" height="25"></li>
+                                </a>
+                                <a href="https://github.com/zoopoko">
+                                <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/github.png" alt="logo" width="25" height="25"></li>
+                                </a>
                                 <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">
                                 <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_youtube.png" alt="logo" width="25" height="25"></li>
                                 </a>
@@ -73,7 +78,14 @@
                 <div class="accshow">
                   <!--ここに隠す中身-->
                   <p>
+                    <a href="https://twitter.com/zoopokopoko">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/zoo_twitter.png" alt="sns" width="60" height="60">
+                    </a>
+                  </p>
+                  <p>
+                    <a href="https://github.com/zoopoko">
+                    <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/githubsp.png" alt="logo" width="60" height="60"></li>
+                    </a>
                   </p>
                   <p>
                     <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">
