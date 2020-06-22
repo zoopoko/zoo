@@ -23,7 +23,8 @@
     <?php endwhile; // 繰り返し終了 ?>
     <?php else : // 条件分岐：投稿が無い場合は ?>
 
-    <h2>投稿が見つかりません。</h2>
+    <h2>投稿が見つかりません。</h2><br>
+    <div><img src="<?php echo get_template_directory_uri(); ?>/images/zoopoko.gif" width="128" height=" 128"></div>
 
     <?php endif; // 条件分岐終了 ?>
     </div>

@@ -15,7 +15,8 @@
   <?php endwhile;    // 繰り返し処理終了 ?>
   投稿を出力した後に表示する内容
 <?php else :    // 投稿がない場合 ?>
-  <h2>投稿が見つかりません。</h2>
+  <h2>投稿が見つかりません。</h2><br>
+  <div><img src="<?php echo get_template_directory_uri(); ?>/images/zoopoko.gif" width="128" height=" 128"></div>
 <?php endif;    // 条件分岐終了 ?>
 
 </article>
