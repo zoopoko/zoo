@@ -100,13 +100,13 @@
                     <!--ここに隠す中身-->
                     <p class="sns">
                       <a href="https://twitter.com/zoopokopoko">
-                      <img src="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_twitter.png" alt="sns" width="60" height="60">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/zoo_twitter.png" alt="sns" width="60" height="60">
                       </a>
                     </p>
       
                     <p class="sns">  
                       <a href="https://github.com/zoopoko">
-                      <img src="="<?php echo get_template_directory_uri(); ?>/images/githubsp.png" alt="logo" width="60" height="60">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/githubsp.png" alt="logo" width="60" height="60">
                       </a>
               		  </p>
                     
