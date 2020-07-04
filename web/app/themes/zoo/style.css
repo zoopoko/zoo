@@ -133,6 +133,11 @@ li.logo {
   max-width: 60px;
   background-color: transparent;
   margin-right: 18px; }
+  
+  
+.sns {
+  margin: 42px;
+}
 
 .accbox label {
   display: block;
@@ -162,7 +167,7 @@ li.logo {
   padding: 5px;
   background-color: transparent;
   opacity: 1;
-  text-align: right; }
+   }
 
 .accshow {
   width: 1024px;
@@ -170,10 +175,16 @@ li.logo {
 
 .boxsp {
   justify-content: flex-end;
-  list-style: none; }
+  list-style: none;
+  margin: 7px;
+}
 
 li.fontsp a {
-  font-size: 9px; }
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Smokum', cursive;
+  margin-right: 50%;
+}
 
 .logoxx {
   margin-top: 7px;
@@ -220,3 +231,60 @@ li.fontsp a {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/*以下ボタン切り替えパーツ*/
+.hidden_box {
+    margin: 2em 0;
+    padding: 0;
+}
+/*ボタン装飾*/
+.hidden_box label {
+    padding: 15px;
+    font-weight: bold; 
+    border-radius: 5px;
+    cursor :pointer;
+    transition: .5s;
+}
+/*アイコンを表示*/
+.hidden_box label:before {
+    display: inline-block;
+    content: '\f078';
+    font-family: 'FontAwesome';
+    padding-right: 5px;
+    transition: 0.2s;
+}
+/*ボタンホバー時*/
+.hidden_box label:hover {
+}
+/*アイコンを切り替え*/
+.hidden_box input:checked + label:before {
+     content: '\f00d';
+     -ms-transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+     transform: rotate(360deg);
+     color: #668ad8;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked + label + .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+/*以上ボタン切り替えパーツ*/

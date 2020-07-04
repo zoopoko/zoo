@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); //html要素のlang属性を出力 ?> style="margin-top: 0px !important">
 <head>
+<!--Font-->
+<link href="https://fonts.googleapis.com/css2?family=Smokum&display=swap" rel="stylesheet">
+
 <meta charset="<?php bloginfo( 'charset' ); //文字エンコーディング情報を出力 ?>">
 <title><?php wp_title( '|', true, 'right' ); //ページタイトルを出力 ?><?php bloginfo('name'); //サイト名を表示 ?></title>
 
@@ -56,10 +59,7 @@
                                 <a href="https://github.com/zoopoko">
                                 <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/github.png" alt="logo" width="25" height="25"></li>
                                 </a>
-                                <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">
-                                <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_youtube.png" alt="logo" width="25" height="25"></li>
-                                </a>
-                                <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_insta.png" alt="logo" width="25" height="25"></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -68,60 +68,94 @@
             
         <!--SP-->
         
-        <div class="sp_hdr">
-        <div class="containerx">
-            <div class="accbox">
-              <!--ラベル1-->
-                <label for="label1"><img src="<?php echo get_template_directory_uri(); ?>/images/sns_menu.png" alt="sns" width="60" height="60"></label>
-                <div class="underline"></div>
-                <input type="checkbox" id="label1" class="cssacc" />
-                <div class="accshow">
-                  <!--ここに隠す中身-->
-                  <p>
-                    <a href="https://twitter.com/zoopokopoko">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/zoo_twitter.png" alt="sns" width="60" height="60">
-                    </a>
-                  </p>
-                  <p>
-                    <a href="https://github.com/zoopoko">
-                    <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/githubsp.png" alt="logo" width="60" height="60"></li>
-                    </a>
-                  </p>
-                  <p>
-                    <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/zoo_youtube.png" alt="sns" width="60" height="60">
-                    </a>
-                  </p>
-                  <p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/zoo_insta.png" alt="sns" width="60" height="60">
-                  </p>
-                </div>
-                <!--//ラベル1-->
-            </div>  
-            <div class="accbox">
-              <!--ラベル2-->
-                <label for="label2"><a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_logo.png" alt="logo" width="70" height="70"></a></label>
-                <input type="checkbox" id="label2" class="cssacc" />
-                <div class="accshow">
-                </div>
-                <!--//ラベル2-->
-            </div>   
-            <div class="accbox">
-              <!--ラベル3-->
-                <label for="label3"><img src="<?php echo get_template_directory_uri(); ?>/images/humberger_menu.png" alt="hm" width="60" height="60"></label>
-                <input type="checkbox" id="label3" class="cssacc" />
-                <div class="accshow">
-                  <!--ここに隠す中身-->
-                  <div class="boxsp">
-                    <li class="fontsp"><a href="<?php echo home_url( '/news/' ); ?>">NEWS</a></li>
-                    <li class="fontsp"><a href="<?php echo home_url( '/works/' ); ?>">WORKS</a></li>
-                    <li class="fontsp"><a href="<?php echo home_url( '/project/' ); ?>">PROJECT</a></li>
-                    <li class="fontsp"><a href="<?php echo home_url( '/creater/' ); ?>">CREATER</a></li>
+        
+        
+      <div class="sp_hdr">
+          <div class="containerx">
+              <div class="accbox">
+                <!--ラベル1-->
+                
+                  <label for="label1">
+                  <img id="mypic" onclick="slideshow()" src="<?php echo get_template_directory_uri(); ?>/images/sns_menu.png" alt="sns" width="60" height="60">
+                  </label>
+                  <script>
+                  var pics_src = new Array("<?php echo get_template_directory_uri(); ?>/images/sns_menu.png","<?php echo get_template_directory_uri(); ?>/images/x.png");
+                  var num = 0;
+                  function slideshow(){
+                      if (num == 1) {
+                          num = 0;
+                      }
+                      else {
+                          num ++;
+                      }
+                      document.getElementById("mypic").src=pics_src[num];
+                  }
+                  </script>
+                  
+                  
+                  <div class="underline"></div>
+                  <input type="checkbox" id="label1" class="cssacc" />
+                  <div class="accshow">
+      
+                    <!--ここに隠す中身-->
+                    <p class="sns">
+                      <a href="https://twitter.com/zoopokopoko">
+                      <img src="http://2d24aeac71e34181a376ddfa4dc46f90.vfs.cloud9.us-east-1.amazonaws.com:80/wp-content/themes/zoo/images/zoo_twitter.png" alt="sns" width="60" height="60">
+                      </a>
+                    </p>
+      
+                    <p class="sns">  
+                      <a href="https://github.com/zoopoko">
+                      <img src="http://2d24aeac71e34181a376ddfa4dc46f90.vfs.cloud9.us-east-1.amazonaws.com:80/wp-content/themes/zoo/images/githubsp.png" alt="logo" width="60" height="60">
+                      </a>
+              		  </p>
+                    
                   </div>
-                </div>
-                <!--//ラベル3-->
-            </div><!--//.accbox-->
+                  <!--//ラベル1-->
+              </div>  
+              <div class="accbox">
+                <!--ラベル2-->
+                  <label for="label2"><a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_logo.png" alt="logo" width="70" height="70"></a></label>
+                  <input type="checkbox" id="label2" class="cssacc" />
+                  <div class="accshow">
+                  </div>
+                  <!--//ラベル2-->
+              </div>   
+              <div class="accbox">
+                <!--ラベル3-->
+                
+                  <label for="label3">
+                    <img id="mypic2" onclick="slideshow2()" src="<?php echo get_template_directory_uri(); ?>/images/humberger_menu.png" alt="hm" width="60" height="60">
+                  </label>
+                  
+                  <script>
+                  var pics_src2 = new Array("<?php echo get_template_directory_uri(); ?>/images/humberger_menu.png","<?php echo get_template_directory_uri(); ?>/images/x.png");
+                  var num2 = 0;
+                  function slideshow2(){
+                      if (num2 == 1) {
+                          num2 = 0;
+                      }
+                      else {
+                          num2 ++;
+                      }
+                      document.getElementById("mypic2").src=pics_src2[num2];
+                  }
+                  </script>
+                  
+                  
+                  <input type="checkbox" id="label3" class="cssacc" />
+                  <div class="accshow" style="transform:translateX(-25px);">
+                    <!--ここに隠す中身-->
+                    <div class="boxsp">
+                      <li class="fontsp"><a href="<?php echo home_url( '/news/' ); ?>">NEWS</a></li>
+                      <li class="fontsp"><a href="<?php echo home_url( '/works/' ); ?>">WORKS</a></li>
+                      <li class="fontsp"><a href="<?php echo home_url( '/project/' ); ?>">PROJECT</a></li>
+                      <li class="fontsp"><a href="<?php echo home_url( '/creater/' ); ?>">CREATER</a></li>
+                    </div>
+                  </div>
+                  <!--//ラベル3-->
+              </div><!--//.accbox-->
           </div>
-        </div><!--sp_hdr-->
+      </div><!--sp_hdr-->
                 
     </header>
