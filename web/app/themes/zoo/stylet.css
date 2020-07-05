@@ -105,19 +105,15 @@ li.logo {
 .hbmenu {
   margin-top: 5px; }
 
-@media (min-width: 769px) {
+@media (min-width: 768.1px) {
   .sp_hdr {
     display: none; }
 
   #wrapper {
-    display: none; } 
-}
-
+    display: none; } }
 @media (max-width: 768px) {
   .t_hdr {
-    display: none; }
-    }
-    
+    display: none; } }
 .sp_hdr {
   margin: 0 -200%;
   padding: 0 200%;
