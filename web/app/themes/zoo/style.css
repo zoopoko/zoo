@@ -83,7 +83,10 @@ li.font a {
   list-style-type: none;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-bottom: 3px; }
+  margin-bottom: 3px;
+  font-family: 'Smokum', cursive;
+  
+}
 
 li.logo {
   float: left;

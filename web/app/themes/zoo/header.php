@@ -45,10 +45,10 @@
                         </div>
                         <div class="col-lg-6">
                             <ul class="bxcnt">
-                                <li class="font"><a href="<?php echo home_url( '/news/' ); ?>">NEWS</a></li>
-                                <li class="font"><a href="<?php echo home_url( '/works/' ); ?>">WORKS</a></li>
-                                <li class="font"><a href="<?php echo home_url( '/project/' ); ?>">PROJECT</a></li>
-                                <li class="font"><a href="<?php echo home_url( '/creater/' ); ?>">CREATER</a></li>
+                                <li class="font"><a href="<?php echo home_url( '/news/' ); ?>">News</a></li>
+                                <li class="font"><a href="<?php echo home_url( '/works/' ); ?>">Works</a></li>
+                                <li class="font"><a href="<?php echo home_url( '/project/' ); ?>">Project</a></li>
+                                <li class="font"><a href="<?php echo home_url( '/creater/' ); ?>">Creater</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-4">
