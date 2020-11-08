@@ -5,6 +5,7 @@ Description: フリーランスデザイナーzoopokoのWordPressテーマ
 Version: 1.0
 */
 
+
 .html {
   margin-top: 0px !important;
 }
@@ -18,8 +19,44 @@ header{
   z-index: 10000;
 }
 
+.navbar {
+     display: flex;
+     justify-content: center !important;
+     
+     
+}
+
+/*▼zoo2.0レスポンシブCSS*/
+@media (max-width: 768px) {
+nav#pcheadr2 {
+   display: none; 
+  }
+}
+@media (min-width: 768.1px) {
+nav#spheadr2 {
+  display: none;
+}
+}
+/*▲zoo2.0レスポンシブCSS*/
+
+
+
+.collapse {
+  display: flex;
+  margin-left:auto;
+}
+
+.form-inline {
+  margin-left: auto;
+  
+}
+
+.breadcrumb{
+  margin-bottom: 0px !important;
+}
+
 .spacetop {
-  margin-top: 95px;
+  margin-top: 175px;
 }
 
 .body {
@@ -202,14 +239,16 @@ li.fontsp a {
   height: 240px;
   margin: 10px;
   font-weight: bold;
-  border: solid 6px #dbdad8;
+  border: solid 1px #C0C0C0;
+  border-radius: 10px;
   }
 
 .box2 {
   padding: 0.5em 1em;
   margin: 10px;
   font-weight: bold;
-  border: solid 6px #dbdad8;
+  border: solid 1px #C0C0C0;
+  border-radius: 10px;
 }
 
 .boxarticle {
@@ -226,7 +265,7 @@ li.fontsp a {
 
 .ftr_inside {
   height: 240px;
-  background-color: #4a4a4a;
+  background-color: #C0C0C0;
   
 }
   
@@ -297,3 +336,40 @@ li.fontsp a {
 }
 
 /*以上ボタン切り替えパーツ*/
+
+
+/*▼ブルブル振動パーツ*/
+.buruburu {
+    display: inline-block;
+    animation: hurueru .1s  infinite;
+}
+
+@keyframes hurueru {
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
+/*▲ブルブル振動パーツ*/
+
+/*フォント*/
+.fontmontserrat {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+.fontamaticsc {
+  font-family: 'Amatic SC', cursive;
+}
+
+li.nav-item {
+  text-align: center;
+}
+li.nav-item_menu {
+  text-align: left;
+}
+.searchform {
+  text-align: left;
+  margin-left: 9px;
+}
