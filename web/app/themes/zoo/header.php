@@ -35,38 +35,6 @@
     <header>
         
         <!--PC-->
-            <!--<div class="t_hdr sticky-top">-->
-            <!--    <div class="container" style="margin-top: 10px;">-->
-            <!--        <div class="row align-items-end">-->
-            <!--            <div class="col-lg-2">-->
-            <!--                <div class="logo1">-->
-                                <a href="<?php echo home_url( '/' ); //トップページのURLを出力 ?>">
-            <!--                    <img src="<?php echo get_template_directory_uri(); ?>/images/zoo_logo.png" alt="logo" width="60" height="40">-->
-            <!--                    </a>-->
-            <!--                </div>-->
-            <!--            </div>-->
-            <!--            <div class="col-lg-6">-->
-            <!--                <ul class="bxcnt">-->
-            <!--                    <li class="font"><a href="<?php echo home_url( '/news/' ); ?>">News</a></li>-->
-            <!--                    <li class="font"><a href="<?php echo home_url( '/works/' ); ?>">Works</a></li>-->
-            <!--                    <li class="font"><a href="<?php echo home_url( '/project/' ); ?>">Project</a></li>-->
-            <!--                    <li class="font"><a href="<?php echo home_url( '/creater/' ); ?>">Creater</a></li>-->
-            <!--                </ul>-->
-            <!--            </div>-->
-            <!--            <div class="col-lg-4">-->
-            <!--                <ul class="bxcnt2">-->
-            <!--                    <a href="https://twitter.com/zoopokopoko">-->
-            <!--                    <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/zoo_twitter.png" alt="logo" width="25" height="25"></li>-->
-            <!--                    </a>-->
-            <!--                    <a href="https://github.com/zoopoko">-->
-            <!--                    <li class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/github.png" alt="logo" width="25" height="25"></li>-->
-            <!--                    </a>-->
-            <!--                </ul>-->
-            <!--            </div>-->
-            <!--        </div>-->
-            <!--    </div>-->
-            <!--</div>-->
-            
             
             <!--▼以下PCヘッダー▼-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light" id="pcheadr2">
