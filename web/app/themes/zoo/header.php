@@ -116,7 +116,7 @@
                         <ul class="navbar-nav mr-auto">
                           <li class="nav-item active"style="padding-left: 36px; padding-top: 4.5px">
                             <a class="nav-link" href="#">
-                              <img class="buruburu" src="<?php echo get_template_directory_uri(); ?>https://zoopoko.s3.amazonaws.com/uploads/2020/11/zootok.png" alt="logo" width="91.1" height="33.0">
+                              <img class="buruburu" src="<?php echo get_template_directory_uri(); ?>/images/zootok.png" alt="logo" width="91.1" height="33.0">
                               <span class="sr-only">(現位置)</span>
                               
                             </a>
