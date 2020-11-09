@@ -252,8 +252,9 @@ li.fontsp a {
 }
 
 .boxarticle {
-  border: solid 6px #dbdad8;
+  border: solid 1px #C0C0C0;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .flx {
