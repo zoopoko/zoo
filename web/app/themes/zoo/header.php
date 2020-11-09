@@ -102,7 +102,7 @@
                 
                
                   <a class="navbar-brand" href="<?php echo home_url( '/' );  ?>">
-                  <img src="<?php echo get_template_directory_uri(); ?>https://zoopoko.s3.amazonaws.com/uploads/2020/11/zoo_logo_giraffe.png" alt="logo" width="60" height="40">
+                  <img src="https://zoopoko.s3.amazonaws.com/uploads/2020/11/zoo_logo_giraffe.png" alt="logo" width="60" height="40">
                   </a>
                 
                 
