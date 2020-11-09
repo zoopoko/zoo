@@ -76,10 +76,10 @@
                               MENU
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Past Zoo</a>
-                              <a class="dropdown-item" href="#">News</a>
+                              <a class="dropdown-item" href="<?php echo home_url( '/works/' ); ?>">Past Zoo</a>
+                              <a class="dropdown-item" href="<?php echo home_url( '/news/' ); ?>">News</a>
                               <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">About Zoo</a>
+                              <a class="dropdown-item" href="<?php echo home_url( '/creater/' ); ?>">About Zoo</a>
                             </div>
                           </li>
                         </ul>
