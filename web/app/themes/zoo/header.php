@@ -42,7 +42,7 @@
                 
                 <div class="col-lg-1">
                   <a class="navbar-brand" href="<?php echo home_url( '/' );  ?>">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/zoo_logo_giraffe.png" alt="logo" width="60" height="40">
+                  <img src="https://zoopoko.s3.amazonaws.com/uploads/2020/11/zoo_logo_giraffe.png" alt="logo" width="60" height="40">
                   </a>
                 </div>  
                 
@@ -56,19 +56,19 @@
                         <ul class="navbar-nav mr-auto">
                           <li class="nav-item active"style="padding-left: 36px; padding-top: 4.5px">
                             <a class="nav-link" href="https://vt.tiktok.com/ZS45CqH3/">
-                              <img class="buruburu" src="<?php echo get_template_directory_uri(); ?>/images/zootok.png" alt="logo" width="91.1" height="33.0">
+                              <img class="buruburu" src="https://zoopoko.s3.amazonaws.com/uploads/2020/11/zootok.png" alt="logo" width="91.1" height="33.0">
                               <span class="sr-only">(現位置)</span>
                               
                             </a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="https://twitter.com/zoopokopoko">
-                              <img src="<?php echo get_template_directory_uri(); ?>/images/zooitter.png" alt="logo" width="40.2" height="37.15">
+                              <img src="https://zoopoko.s3.amazonaws.com/uploads/2020/11/zooitter.png" alt="logo" width="40.2" height="37.15">
                             </a>
                           </li>
                           <li class="nav-item" style="padding-top: 6px;">
                             <a class="nav-link" href="https://github.com/zoopoko">
-                              <img src="<?php echo get_template_directory_uri(); ?>/images/github-394322_1280.png" alt="logo" width="60" height="30">
+                              <img src="https://zoopoko.s3.amazonaws.com/uploads/2020/11/github-394322_1280.png" alt="logo" width="60" height="30">
                             </a>
                           </li>
                           <li class="nav-item dropdown fontamaticsc" style="padding-top: 9px;">
@@ -115,20 +115,20 @@
                     <div class="col-lg-7">
                         <ul class="navbar-nav mr-auto">
                           <li class="nav-item active"style="padding-left: 36px; padding-top: 4.5px">
-                            <a class="nav-link" href="#">
-                              <img class="buruburu" src="<?php echo get_template_directory_uri(); ?>/images/zootok.png" alt="logo" width="91.1" height="33.0">
+                            <a class="nav-link" href="https://www.tiktok.com/@zoopoko/video/6853013269687373057?_d=secCgsIARCbDRgBIAMoARI%2BCjx53sfOBzlklowTq04OdGr6vMrNxQ9B0%2FrlgGxk%2Brz7EqVjBBZgNKeH2%2FWfH%2FYkACZCExhKwVQzTwDfxrgaAA%3D%3D&language=en&preview_pb=0&sec_user_id=MS4wLjABAAAA59xUGZZhNwb0fYkWjwI9CtGARolRjOwhpma0S_2rPEwQbqZGR4wmUOkhR_zVFjRQ&share_item_id=6853013269687373057&share_link_id=C4096486-FBC9-48D1-A69F-B2C320981C0E&timestamp=1604848734&tt_from=copy&u_code=ddg6l1k469254e&user_id=6852894309230937090&utm_campaign=client_share&utm_medium=ios&utm_source=copy&source=h5_m">
+                              <img class="buruburu" src="https://zoopoko.s3.amazonaws.com/uploads/2020/11/zootok.png" alt="logo" width="91.1" height="33.0">
                               <span class="sr-only">(現位置)</span>
                               
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">
-                              <img src="<?php echo get_template_directory_uri(); ?>/images/zooitter.png" alt="logo" width="40.2" height="37.15">
+                            <a class="nav-link" href="https://twitter.com/zoopokopoko">
+                              <img src="https://zoopoko.s3.amazonaws.com/uploads/2020/11/zooitter.png" alt="logo" width="40.2" height="37.15">
                             </a>
                           </li>
                           <li class="nav-item" style="padding-top: 6px;">
-                            <a class="nav-link" href="#">
-                              <img src="<?php echo get_template_directory_uri(); ?>/images/github-394322_1280.png" alt="logo" width="60" height="30">
+                            <a class="nav-link" href="https://github.com/zoopoko">
+                              <img src="https://zoopoko.s3.amazonaws.com/uploads/2020/11/github-394322_1280.png" alt="logo" width="60" height="30">
                             </a>
                           </li>
                           <li class="nav-item_menu dropdown fontamaticsc" style="padding-top: 9px;">
